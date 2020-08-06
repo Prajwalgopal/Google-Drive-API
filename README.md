@@ -16,12 +16,17 @@ The Anaconda distribution of Python
 If you’re using the bash shell, create a run.sh file at your project root that looks like:
 
 1.export FN_AUTH_REDIRECT_URI=http://localhost:8040/google/auth
+
 2.export FN_BASE_URI=http://localhost:8040
+
 3.export FN_CLIENT_ID=THE CLIENT ID WHICH YOU CREATED EARLIER
+
 4.export FN_CLIENT_SECRET=THE CLIENT SECRET WHICH YOU CREATED EARLIER
 
 5.export FLASK_APP=app.py
+
 6.export FLASK_DEBUG=1
+
 7.export FN_FLASK_SECRET_KEY=SOMETHING RANDOM AND SECRET
 
 8.python -m flask run -p 8040
